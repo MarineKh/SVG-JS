@@ -1,0 +1,36 @@
+svg {
+	height: 450px;
+    width: 310px;
+
+    background: #FFFFE6;
+
+    margin-left: 550px;
+
+    border: #aaa 2px solid;
+}
+rect {
+	height: 20px;
+    width: 245px;
+
+    stroke-width: 1.5px;
+    stroke: #aaa;
+    fill: #6698B4;
+}
+rect:nth-of-type(1) {
+    width: 310px;
+    height: 60px;
+}
+.firstText {
+    font-style: italic;
+}
+.innerText {
+    font-size: 12px;
+}
+.tspan-bold {
+    font-size: 16px;
+    font-weight: bold;
+}
+.tspan-bold-inner {
+    font-size: 12px;
+    font-weight: bold;
+}
